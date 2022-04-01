@@ -1,29 +1,5 @@
 # UsersCrud
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# AngularUsersCrud
-# AngularUsersCrud
+This activity consists on creating a simple CRUD that allows to create, read, updtate and delete, in my case, users using Angular Material. As we can see, the first view of the app includes a table that lists all of the existing users. In this example, we store the users using an array. Each row contains each user info and some actions that can be done to those users. As a CRUD means updating and deleting, in each row we can see a delete icon and an update icon that fire the appropriate function to delete or update. At the right of the page, there is a form that allows to create a user or, if the update icon is clicked, to update an especific user. 
+This task has given me the knowledge to create a very simple CRUD using Angular Material, learning how to add the library, import the modules that the app requires, the way some resources are created such as buttons, tables, forms, etc. apart from getting some experience using Components, Models, Services and how they interact.
+To conclude, from my point of view, it is a simple activity to get in touch with this new framework but it is really useful considering that most of real applications need CRUDs so that their admins can manage the database.
