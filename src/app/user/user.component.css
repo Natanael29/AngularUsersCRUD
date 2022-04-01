@@ -1,0 +1,64 @@
+h1{
+    color: rgb(255, 230, 0);
+}
+
+.user-form{
+    display: flex;
+    flex-direction: column;
+    border: rgb(255, 230, 0) 2px solid;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.user-form div:last-child{
+    display: flex;
+    justify-content: space-between;
+}
+  
+.mat-column-name, .mat-column-surname, .mat-column-email, .mat-column-id, .mat-column-actions {
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.section-form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.section-form{
+    margin-top: 5rem;
+}
+
+mat-label {
+    color: white;
+}
+
+button{
+    background-color: rgb(9, 255, 9);
+}
+
+.delete-button{
+    margin-right: 1rem;
+}
+
+input {
+    color: white;
+}
+
+mat-table {
+    background-color: transparent;
+    border: rgb(255, 230, 0) 2px solid;
+}
+
+th{
+    color: rgb(255, 230, 0);
+    border-bottom: rgb(255, 230, 0) 2px solid;
+    text-align: center;
+}
+
+td{
+    color: white;
+    text-align: center;
+}
